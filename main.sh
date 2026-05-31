@@ -6,7 +6,7 @@ source module/services.sh
 source module/alert.sh
 
 
-SERVICES=("nginx" "dockerd" "sshd")
-
+#SERVICES=("nginx" "docker" "sshd")
+SERVICES=("docker" "sshd")
 check_service "${SERVICES[@]}"
 check_metrics

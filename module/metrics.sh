@@ -19,7 +19,7 @@ check_metrics(){
       "mem_usage": "$((100 * MEM / MemTotal))%",
       "disk_usage": "${DISKPercentage}%"
     }
-    EOF
+EOF
     )
 
     alert "$MESSAGE"
